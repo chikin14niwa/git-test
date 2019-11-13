@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>これはテストサイトです。</title>
+  <style>
+    div.box {
+      float:left;
+      width: 300px;
+      height: 60px;
+      margin-right: 10px;
+      background-color: purple;
+    }
+    div.none {
+      clear: both;
+    }
+  </style>
 </head>
 <body>
+  <div id="banner">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="none"></div>
+  </div>
   <ol>
     <li>ここを変更する</li>
     <li>ここを変更する</li>
